@@ -9,7 +9,7 @@ class ManejadorViajero:
         self.__listaobjetos = []
 
     def test(self):
-        objetoP = ViajeroFrecuente(250, 24941821, 'Ramiro', 'Elizondo', 1500)
+        objetoP = ViajeroFrecuente(100, 6666666, 'XXX', 'YYY', 756)
         print('Prueba: {}'.format(objetoP.muestra()))
         print('Cantidad: {}'.format(objetoP.cantidadTotalMillas()))
         print('Acumula: {}'.format(objetoP.acumularMillas(1500)))
